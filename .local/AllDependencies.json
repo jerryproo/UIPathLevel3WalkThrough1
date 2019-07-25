@@ -220,7 +220,7 @@
           "lib/net45/ICSharpCode.SharpZipLib.dll": {}
         }
       },
-      "UiPath/19.6.7108.25473": {
+      "UiPath/19.7.7128.27029": {
         "type": "package",
         "compile": {
           "lib/_._": {}
@@ -242,6 +242,47 @@
         },
         "runtime": {
           "lib/net40-client/UiPath.Credentials.Activities.dll": {}
+        }
+      },
+      "UiPath.Database.Activities/1.2.6863.32528": {
+        "type": "package",
+        "compile": {
+          "lib/net40-Client/_._": {}
+        },
+        "runtime": {
+          "lib/net40-Client/Microsoft.Data.ConnectionUI.Dialog.dll": {},
+          "lib/net40-Client/UiPath.Database.Activities.Design.dll": {},
+          "lib/net40-Client/UiPath.Database.Activities.dll": {},
+          "lib/net40-Client/UiPath.Database.dll": {}
+        },
+        "resource": {
+          "lib/net40-Client/de/UiPath.Database.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40-Client/de/UiPath.Database.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40-Client/de/UiPath.Database.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40-Client/fr/UiPath.Database.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40-Client/fr/UiPath.Database.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40-Client/fr/UiPath.Database.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40-Client/ja/UiPath.Database.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40-Client/ja/UiPath.Database.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40-Client/ja/UiPath.Database.resources.dll": {
+            "locale": "ja"
+          }
         }
       },
       "UiPath.Excel.Activities/2.6.2": {
@@ -796,10 +837,10 @@
         "sharpziplib.nuspec"
       ]
     },
-    "UiPath/19.6.7108.25473": {
-      "sha512": "V63r0DNVv1EY8YqGj7kXuLZJxHVbFd5lJiS0FSQGW5d9oPzP9eaPbovoioUg/SXGx/fnjN4KpNMhYwJj4UkI+A==",
+    "UiPath/19.7.7128.27029": {
+      "sha512": "qwGn1866LHnldXmQnKGABNcppK0eVtS5QkUSS3fNMPQ/bbvFRhlZMjjI/UQvRzK/VrrSO3F1fiPaBi0mE7+w7A==",
       "type": "package",
-      "path": "uipath/19.6.7108.25473",
+      "path": "uipath/19.7.7128.27029",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -847,7 +888,7 @@
         "build/UiPath/x64/ShaferFilechck_x64.DLL",
         "build/UiPath/x64/msvcr100.dll",
         "lib/UiPath.Interop.dll",
-        "uipath.19.6.7108.25473.nupkg.sha512",
+        "uipath.19.7.7128.27029.nupkg.sha512",
         "uipath.nuspec"
       ]
     },
@@ -860,6 +901,29 @@
         "lib/net40-client/UiPath.Credentials.Activities.dll",
         "uipath.credentials.activities.1.1.6479.13204.nupkg.sha512",
         "uipath.credentials.activities.nuspec"
+      ]
+    },
+    "UiPath.Database.Activities/1.2.6863.32528": {
+      "sha512": "eNPiEjZztYygiGSvHoQla7A/IJZ54fa3qVkQRG7W+ANyI4mWsjkq0fKbPThaRIThrpJVwyU+0VMavTpHZCNKpQ==",
+      "type": "package",
+      "path": "uipath.database.activities/1.2.6863.32528",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net40-Client/Microsoft.Data.ConnectionUI.Dialog.dll",
+        "lib/net40-Client/UiPath.Database.Activities.Design.dll",
+        "lib/net40-Client/UiPath.Database.Activities.dll",
+        "lib/net40-Client/UiPath.Database.dll",
+        "lib/net40-Client/de/UiPath.Database.Activities.Design.resources.dll",
+        "lib/net40-Client/de/UiPath.Database.Activities.resources.dll",
+        "lib/net40-Client/de/UiPath.Database.resources.dll",
+        "lib/net40-Client/fr/UiPath.Database.Activities.Design.resources.dll",
+        "lib/net40-Client/fr/UiPath.Database.Activities.resources.dll",
+        "lib/net40-Client/fr/UiPath.Database.resources.dll",
+        "lib/net40-Client/ja/UiPath.Database.Activities.Design.resources.dll",
+        "lib/net40-Client/ja/UiPath.Database.Activities.resources.dll",
+        "lib/net40-Client/ja/UiPath.Database.resources.dll",
+        "uipath.database.activities.1.2.6863.32528.nupkg.sha512",
+        "uipath.database.activities.nuspec"
       ]
     },
     "UiPath.Excel.Activities/2.6.2": {
@@ -1113,7 +1177,9 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
+      "UiPath >= 19.7.7128.27029 <= 19.7.7128.27029",
       "UiPath.Credentials.Activities >= 1.1.6479.13204 <= 1.1.6479.13204",
+      "UiPath.Database.Activities >= 1.2.6863.32528 <= 1.2.6863.32528",
       "UiPath.Excel.Activities >= 2.6.2 <= 2.6.2",
       "UiPath.Mail.Activities >= 1.5.1 <= 1.5.1",
       "UiPath.System.Activities >= 19.7.0 <= 19.7.0",
@@ -1121,23 +1187,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wangzw.GOLDEN-TECH\\.nuget\\packages\\": {}
+    "C:\\Users\\29861\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "UiPath_REFrameWork",
       "projectName": "UiPath_REFrameWork",
-      "projectPath": "E:\\GitHub\\UiPathLevel3WalkThrough1\\.local",
-      "packagesPath": "C:\\Users\\wangzw.GOLDEN-TECH\\.nuget\\packages\\",
-      "outputPath": "E:\\GitHub\\UiPathLevel3WalkThrough1\\.local"
+      "projectPath": "D:\\WORK\\github\\UiPathLevel3WalkThrough1\\.local",
+      "packagesPath": "C:\\Users\\29861\\.nuget\\packages\\",
+      "outputPath": "D:\\WORK\\github\\UiPathLevel3WalkThrough1\\.local"
     },
     "frameworks": {
       "net461": {
         "dependencies": {
+          "UiPath": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[19.7.7128.27029, 19.7.7128.27029]"
+          },
           "UiPath.Credentials.Activities": {
             "include": "Runtime",
             "target": "Package",
             "version": "[1.1.6479.13204, 1.1.6479.13204]"
+          },
+          "UiPath.Database.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.2.6863.32528, 1.2.6863.32528]"
           },
           "UiPath.Excel.Activities": {
             "include": "Runtime",
