@@ -3,10 +3,11 @@
   "description": "UiPath_REFrameWork Template",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Credentials.Activities": "[1.1.6479.13204]",
     "UiPath.Excel.Activities": "[2.6.2]",
-    "UiPath.Mail.Activities": "[1.5.0]",
-    "UiPath.System.Activities": "[18.3.6897.22524]",
-    "UiPath.UIAutomation.Activities": "[18.3.6897.22543]"
+    "UiPath.Mail.Activities": "[1.5.1]",
+    "UiPath.System.Activities": "19.7.0",
+    "UiPath.UIAutomation.Activities": "19.6.0"
   },
   "schemaVersion": "3.2",
   "studioVersion": "17.1",
