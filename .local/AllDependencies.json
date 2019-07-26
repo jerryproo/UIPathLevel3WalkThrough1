@@ -220,7 +220,7 @@
           "lib/net45/ICSharpCode.SharpZipLib.dll": {}
         }
       },
-      "UiPath/19.7.7128.27029": {
+      "UiPath/19.6.7108.25473": {
         "type": "package",
         "compile": {
           "lib/_._": {}
@@ -242,47 +242,6 @@
         },
         "runtime": {
           "lib/net40-client/UiPath.Credentials.Activities.dll": {}
-        }
-      },
-      "UiPath.Database.Activities/1.2.6863.32528": {
-        "type": "package",
-        "compile": {
-          "lib/net40-Client/_._": {}
-        },
-        "runtime": {
-          "lib/net40-Client/Microsoft.Data.ConnectionUI.Dialog.dll": {},
-          "lib/net40-Client/UiPath.Database.Activities.Design.dll": {},
-          "lib/net40-Client/UiPath.Database.Activities.dll": {},
-          "lib/net40-Client/UiPath.Database.dll": {}
-        },
-        "resource": {
-          "lib/net40-Client/de/UiPath.Database.Activities.Design.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net40-Client/de/UiPath.Database.Activities.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net40-Client/de/UiPath.Database.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net40-Client/fr/UiPath.Database.Activities.Design.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net40-Client/fr/UiPath.Database.Activities.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net40-Client/fr/UiPath.Database.resources.dll": {
-            "locale": "fr"
-          },
-          "lib/net40-Client/ja/UiPath.Database.Activities.Design.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net40-Client/ja/UiPath.Database.Activities.resources.dll": {
-            "locale": "ja"
-          },
-          "lib/net40-Client/ja/UiPath.Database.resources.dll": {
-            "locale": "ja"
-          }
         }
       },
       "UiPath.Excel.Activities/2.6.2": {
@@ -342,7 +301,7 @@
           }
         }
       },
-      "UiPath.Mail.Activities/1.5.1": {
+      "UiPath.Mail.Activities/1.5.0": {
         "type": "package",
         "dependencies": {
           "BouncyCastle": "1.8.1",
@@ -386,15 +345,6 @@
           },
           "lib/net452/ru/UiPath.Mail.resources.dll": {
             "locale": "ru"
-          },
-          "lib/net452/zh-CN/UiPath.Mail.Activities.Design.resources.dll": {
-            "locale": "zh-CN"
-          },
-          "lib/net452/zh-CN/UiPath.Mail.Activities.resources.dll": {
-            "locale": "zh-CN"
-          },
-          "lib/net452/zh-CN/UiPath.Mail.resources.dll": {
-            "locale": "zh-CN"
           }
         }
       },
@@ -407,7 +357,7 @@
           "lib/net45/UiPath.OCR.Contracts.dll": {}
         }
       },
-      "UiPath.System.Activities/19.7.0": {
+      "UiPath.System.Activities/19.6.0": {
         "type": "package",
         "dependencies": {
           "CsvHelper": "2.13.5",
@@ -837,10 +787,10 @@
         "sharpziplib.nuspec"
       ]
     },
-    "UiPath/19.7.7128.27029": {
-      "sha512": "qwGn1866LHnldXmQnKGABNcppK0eVtS5QkUSS3fNMPQ/bbvFRhlZMjjI/UQvRzK/VrrSO3F1fiPaBi0mE7+w7A==",
+    "UiPath/19.6.7108.25473": {
+      "sha512": "V63r0DNVv1EY8YqGj7kXuLZJxHVbFd5lJiS0FSQGW5d9oPzP9eaPbovoioUg/SXGx/fnjN4KpNMhYwJj4UkI+A==",
       "type": "package",
-      "path": "uipath/19.7.7128.27029",
+      "path": "uipath/19.6.7108.25473",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -888,7 +838,7 @@
         "build/UiPath/x64/ShaferFilechck_x64.DLL",
         "build/UiPath/x64/msvcr100.dll",
         "lib/UiPath.Interop.dll",
-        "uipath.19.7.7128.27029.nupkg.sha512",
+        "uipath.19.6.7108.25473.nupkg.sha512",
         "uipath.nuspec"
       ]
     },
@@ -901,29 +851,6 @@
         "lib/net40-client/UiPath.Credentials.Activities.dll",
         "uipath.credentials.activities.1.1.6479.13204.nupkg.sha512",
         "uipath.credentials.activities.nuspec"
-      ]
-    },
-    "UiPath.Database.Activities/1.2.6863.32528": {
-      "sha512": "eNPiEjZztYygiGSvHoQla7A/IJZ54fa3qVkQRG7W+ANyI4mWsjkq0fKbPThaRIThrpJVwyU+0VMavTpHZCNKpQ==",
-      "type": "package",
-      "path": "uipath.database.activities/1.2.6863.32528",
-      "files": [
-        ".nupkg.metadata",
-        "lib/net40-Client/Microsoft.Data.ConnectionUI.Dialog.dll",
-        "lib/net40-Client/UiPath.Database.Activities.Design.dll",
-        "lib/net40-Client/UiPath.Database.Activities.dll",
-        "lib/net40-Client/UiPath.Database.dll",
-        "lib/net40-Client/de/UiPath.Database.Activities.Design.resources.dll",
-        "lib/net40-Client/de/UiPath.Database.Activities.resources.dll",
-        "lib/net40-Client/de/UiPath.Database.resources.dll",
-        "lib/net40-Client/fr/UiPath.Database.Activities.Design.resources.dll",
-        "lib/net40-Client/fr/UiPath.Database.Activities.resources.dll",
-        "lib/net40-Client/fr/UiPath.Database.resources.dll",
-        "lib/net40-Client/ja/UiPath.Database.Activities.Design.resources.dll",
-        "lib/net40-Client/ja/UiPath.Database.Activities.resources.dll",
-        "lib/net40-Client/ja/UiPath.Database.resources.dll",
-        "uipath.database.activities.1.2.6863.32528.nupkg.sha512",
-        "uipath.database.activities.nuspec"
       ]
     },
     "UiPath.Excel.Activities/2.6.2": {
@@ -952,10 +879,10 @@
         "uipath.excel.activities.nuspec"
       ]
     },
-    "UiPath.Mail.Activities/1.5.1": {
-      "sha512": "ZejvTmy0sUuLV5wNuYybsCIz2MUQ1keBTzPMHfcI7gaink07JdtMIirq+GSmBIxL3nfafPwSWYDwNSBb93hg4Q==",
+    "UiPath.Mail.Activities/1.5.0": {
+      "sha512": "2Mb0m/a5mdAiX7wkDjEd/ufHtRmvyNoxbITwUyEX9ImM9jRbdPizMX0292oE3ujwShCzziCLfq7DUasLpPwVRA==",
       "type": "package",
-      "path": "uipath.mail.activities/1.5.1",
+      "path": "uipath.mail.activities/1.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -975,10 +902,7 @@
         "lib/net452/ru/UiPath.Mail.Activities.Design.resources.dll",
         "lib/net452/ru/UiPath.Mail.Activities.resources.dll",
         "lib/net452/ru/UiPath.Mail.resources.dll",
-        "lib/net452/zh-CN/UiPath.Mail.Activities.Design.resources.dll",
-        "lib/net452/zh-CN/UiPath.Mail.Activities.resources.dll",
-        "lib/net452/zh-CN/UiPath.Mail.resources.dll",
-        "uipath.mail.activities.1.5.1.nupkg.sha512",
+        "uipath.mail.activities.1.5.0.nupkg.sha512",
         "uipath.mail.activities.nuspec"
       ]
     },
@@ -994,10 +918,10 @@
         "uipath.ocr.contracts.nuspec"
       ]
     },
-    "UiPath.System.Activities/19.7.0": {
-      "sha512": "2qQSc1s5cOMa3iN86smTv2GaFsR210A0tj9YvF/P0JqbHHS3ihWmhJhkZ76DiCOiWMiuHX55k2+aAhrx2qOb/Q==",
+    "UiPath.System.Activities/19.6.0": {
+      "sha512": "uEWNxYa4VWt7IQ2DRZkvFOq6/j1S45PdgqyLo/5UXzTZPTiRQVo6VjN3bakg6DfJ2IJ20Jad7I6X2ezJj18XTQ==",
       "type": "package",
-      "path": "uipath.system.activities/19.7.0",
+      "path": "uipath.system.activities/19.6.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1022,7 +946,7 @@
         "lib/net461/ru/UiPath.System.Activities.resources.dll",
         "lib/net461/zh-CN/UiPath.System.Activities.Design.resources.dll",
         "lib/net461/zh-CN/UiPath.System.Activities.resources.dll",
-        "uipath.system.activities.19.7.0.nupkg.sha512",
+        "uipath.system.activities.19.6.0.nupkg.sha512",
         "uipath.system.activities.nuspec"
       ]
     },
@@ -1177,43 +1101,37 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
-      "UiPath >= 19.7.7128.27029 <= 19.7.7128.27029",
+      "CredentialManagement >= 1.0.2 <= 1.0.2",
       "UiPath.Credentials.Activities >= 1.1.6479.13204 <= 1.1.6479.13204",
-      "UiPath.Database.Activities >= 1.2.6863.32528 <= 1.2.6863.32528",
       "UiPath.Excel.Activities >= 2.6.2 <= 2.6.2",
-      "UiPath.Mail.Activities >= 1.5.1 <= 1.5.1",
-      "UiPath.System.Activities >= 19.7.0 <= 19.7.0",
+      "UiPath.Mail.Activities >= 1.5.0 <= 1.5.0",
+      "UiPath.System.Activities >= 19.6.0 <= 19.6.0",
       "UiPath.UIAutomation.Activities >= 19.6.0 <= 19.6.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\29861\\.nuget\\packages\\": {}
+    "C:\\Users\\wangzw.GOLDEN-TECH\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "UiPath_REFrameWork",
-      "projectName": "UiPath_REFrameWork",
-      "projectPath": "D:\\WORK\\github\\UiPathLevel3WalkThrough1\\.local",
-      "packagesPath": "C:\\Users\\29861\\.nuget\\packages\\",
-      "outputPath": "D:\\WORK\\github\\UiPathLevel3WalkThrough1\\.local"
+      "projectUniqueName": "UiPathLevel3WalkThrough1_2",
+      "projectName": "UiPathLevel3WalkThrough1_2",
+      "projectPath": "E:\\GitHub\\UiPathLevel3WalkThrough1_2\\.local",
+      "packagesPath": "C:\\Users\\wangzw.GOLDEN-TECH\\.nuget\\packages\\",
+      "outputPath": "E:\\GitHub\\UiPathLevel3WalkThrough1_2\\.local"
     },
     "frameworks": {
       "net461": {
         "dependencies": {
-          "UiPath": {
+          "CredentialManagement": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[19.7.7128.27029, 19.7.7128.27029]"
+            "version": "[1.0.2, 1.0.2]"
           },
           "UiPath.Credentials.Activities": {
             "include": "Runtime",
             "target": "Package",
             "version": "[1.1.6479.13204, 1.1.6479.13204]"
-          },
-          "UiPath.Database.Activities": {
-            "include": "Runtime",
-            "target": "Package",
-            "version": "[1.2.6863.32528, 1.2.6863.32528]"
           },
           "UiPath.Excel.Activities": {
             "include": "Runtime",
@@ -1223,12 +1141,12 @@
           "UiPath.Mail.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[1.5.1, 1.5.1]"
+            "version": "[1.5.0, 1.5.0]"
           },
           "UiPath.System.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[19.7.0, 19.7.0]"
+            "version": "[19.6.0, 19.6.0]"
           },
           "UiPath.UIAutomation.Activities": {
             "include": "Runtime",
